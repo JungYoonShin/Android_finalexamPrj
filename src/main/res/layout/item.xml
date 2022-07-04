@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:fontFamily="@font/inter"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="TITLE"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:fontFamily="@font/inter"
+        android:id="@+id/move"
+        android:textColor="#fe7f00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자세히 보기"/>
+
+
+
+</LinearLayout>
